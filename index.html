@@ -8,8 +8,19 @@
 </head>
 <body>
     <div class="main"> 
-        
+        <!-- banner -->
+        <img class="banner" src="./imgs/banner.png" alt="">
+        <!-- canvas -->
+        <div class="canvas-box">
+            <canvas id="Gacha"></canvas>
+        </div>
     </div>
+    <script src="https://cdn.bootcdn.net/ajax/libs/zepto/1.2.0/zepto.min.js"></script>
     <script src="./main.js"></script>
+    <script>
+        var Gacha = new Gacha({
+            "canvasId":"Gacha"
+        });
+    </script>
 </body>
 </html>

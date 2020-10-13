@@ -11,4 +11,16 @@ img{
     max-width: 480px;
     margin: auto;
     min-height: 100vh;
+    background: linear-gradient(66deg,#673fb5,#9C27B0);
+}
+
+.main::before{
+    content: '';
+    clear: both;
+    display: table;
+}
+.banner{
+    margin: 50px auto;
+    width: 90%;
+    display: block;
 }
